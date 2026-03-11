@@ -1,0 +1,18 @@
+.box {
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
