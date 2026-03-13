@@ -1,0 +1,39 @@
+<!-- 
+ npm init -y
+ npm install -D tailwindcss@3
+
+npx tailwindcss init
+
+src/input.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  content: ["./src/**/*.{html,js}"],
+  npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+-->
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body>
+    <nav class="btn-primary">
+      <div class="logo md:mx-3">United ForWheels</div>
+      <ul class="flex space-x-3 md:mx-3">
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Contact Us</li>
+      </ul>
+    </nav>
+
+    <main></main>
+
+    <footer></footer>
+  </body>
+</html>
