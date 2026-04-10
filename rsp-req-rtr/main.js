@@ -24,7 +24,7 @@ app.delete('/', (req, res) => {
   res.send('Hello World delete')
 })
 app.get('/index', (req, res) => {
-  console.log("hello its a delete req")
+  console.log("hello its a delete get req")
   res.sendFile('templates/index.html',{root: __dirname})
 })
 app.get('/json', (req, res) => {
